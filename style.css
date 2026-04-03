@@ -1,0 +1,205 @@
+/* Body styling: sets the main font, page background, text colour, and spacing */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f4ee;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header styling: creates a simple bar with the logo aligned to the left */
+header {
+    background-color: #6f4e37;
+    padding: 12px 24px;
+    display: grid;
+    grid-template-columns: 90px 1fr 90px;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Logo styling: keeps the logo at a fixed size so it does not stretch */
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
+}
+
+/* Header title styling: displays the business name clearly beside the logo */
+header h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Limelight", serif;
+}
+
+/* Header spacer styling: balances the grid so the title stays centered */
+.header-spacer {
+    width: 90px;
+    height: 1px;
+}
+
+/* Navigation styling: creates a clean horizontal area for the main links */
+nav {
+    background-color: #e8dccd;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* Navigation link styling: styles the section and catalogue links */
+nav a {
+    color: #5a3d2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styling: controls the width and spacing of the content area */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Section styling: adds space between each content section */
+section {
+    margin-bottom: 30px;
+}
+
+/* Section heading styling: centres the main headings for the homepage content blocks */
+section h2 {
+    text-align: center;
+    font-family: "Limelight", serif;
+}
+
+/* Content block styling: creates clearly separated sections using padding and rounded corners */
+.content-block {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* About section styling: gives the introduction block its own light background colour */
+.about-section {
+    background-color: #f2e8dc;
+}
+
+/* Genres section styling: gives the genres block a different soft background colour */
+.genres-section {
+    background-color: #e6efe4;
+}
+
+/* Opening hours section styling: gives the hours block another distinct background colour */
+.hours-section {
+    background-color: #efe3d6;
+}
+
+/* List styling: gives the genre list clear spacing */
+ul {
+    padding-left: 20px;
+}
+
+/* Catalogue grid styling: arranges the catalogue cards in simple rows */
+.catalogue-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Book card styling: creates a clean card for each catalogue item */
+.book-card {
+    background-color: #ffffff;
+    border: 1px solid #d8c3a5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Book card hover styling: slightly increases the card size when the user hovers over it */
+.book-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Book image styling: keeps the image at the top of the card and prevents stretching */
+.book-card-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    background-color: #f0e6d8;
+}
+
+/* Book card content styling: spaces the text inside each card */
+.book-card-content {
+    padding: 15px;
+}
+
+/* Book card title styling: gives each card title a clear heading */
+.book-card-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #5a3d2b;
+    font-family: "Limelight", serif;
+    font-size: 1.1rem;
+}
+
+/* Book card paragraph styling: keeps the card details neat and easy to read */
+.book-card-content p {
+    margin: 0 0 10px 0;
+}
+
+/* Table styling: creates visible borders and a neat layout for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+/* Table cell styling: adds borders and padding to table headings and data cells */
+th,
+td {
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table heading styling: highlights the header row of the table */
+th {
+    background-color: #d8c3a5;
+}
+
+/* Footer styling: formats the bottom section of the page */
+footer {
+    text-align: center;
+    background-color: #6f4e37;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Footer icon container styling: places the contact icons in a simple row */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 12px;
+}
+
+/* Footer icon styling: gives each icon a neat and readable size */
+.footer-icon {
+    width: 28px;
+    height: 28px;
+    display: block;
+    filter: brightness(0) saturate(100%) invert(87%) sepia(14%) saturate(352%) hue-rotate(344deg) brightness(91%) contrast(89%);
+}
+
+/* Footer link styling: keeps footer links visible and simple */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}

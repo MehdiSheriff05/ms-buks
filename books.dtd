@@ -1,0 +1,39 @@
+<!-- This declaration defines the root element called bookstore. -->
+<!-- The bookstore element must contain one or more book elements. -->
+<!ELEMENT bookstore (book+)>
+
+<!-- This declaration defines the book container element. -->
+<!-- Each book must contain the listed child elements in this exact order. -->
+<!ELEMENT book (title, author, genre, price, format, stock, description)>
+
+<!-- This declaration adds an id attribute to each book element. -->
+<!-- The id is required and helps uniquely identify each book. -->
+<!ATTLIST book id ID #REQUIRED>
+
+<!-- This declaration defines the title data element. -->
+<!-- It stores the name of the book as text. -->
+<!ELEMENT title (#PCDATA)>
+
+<!-- This declaration defines the author data element. -->
+<!-- It stores the author name as text. -->
+<!ELEMENT author (#PCDATA)>
+
+<!-- This declaration defines the genre data element. -->
+<!-- It stores the book category as text. -->
+<!ELEMENT genre (#PCDATA)>
+
+<!-- This declaration defines the price data element. -->
+<!-- It stores the price of the book as text. -->
+<!ELEMENT price (#PCDATA)>
+
+<!-- This declaration defines the format data element. -->
+<!-- It stores the book format, such as Paperback, as text. -->
+<!ELEMENT format (#PCDATA)>
+
+<!-- This declaration defines the stock data element. -->
+<!-- It stores the quantity available in stock as text. -->
+<!ELEMENT stock (#PCDATA)>
+
+<!-- This declaration defines the description data element. -->
+<!-- It stores a short summary of the book as text. -->
+<!ELEMENT description (#PCDATA)>

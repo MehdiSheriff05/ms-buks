@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+
+<!-- Root element comment: bookstore is the root element because it contains all book data in one main structure. -->
+<!-- Container element comment: each book element is a container element because it stores one complete book record. -->
+<!-- Data elements comment: title, author, genre, price, format, stock, and description are the data elements because they hold the actual book information. -->
+<!-- Structure comment: each book is stored inside its own container, and the child elements hold the actual book information. -->
+<bookstore>
+    <!-- Book container comment: this book element is a container for one individual book. -->
+    <!-- Data element comment: the child elements below store the actual data for this book. -->
+    <book id="b1">
+        <!-- Data element: title holds the name of the book. -->
+        <title>Harry Potter and the Philosopher’s Stone</title>
+        <!-- Data element: author holds the author name. -->
+        <author>J.K. Rowling</author>
+        <!-- Data element: genre holds the category of the book. -->
+        <genre>Fantasy</genre>
+        <!-- Data element: price holds the selling price of the book. -->
+        <price>650</price>
+        <!-- Data element: format holds the type of book edition. -->
+        <format>Paperback</format>
+        <!-- Data element: stock holds the number of copies available. -->
+        <stock>14</stock>
+        <!-- Data element: description holds a short summary of the book. -->
+        <description>The first magical adventure that introduces Harry Potter to Hogwarts and the wizarding world.</description>
+    </book>
+
+    <!-- Book container comment: this book element is a container for one individual book. -->
+    <book id="b2">
+        <title>Harry Potter and the Chamber of Secrets</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>680</price>
+        <format>Paperback</format>
+        <stock>12</stock>
+        <description>Harry returns to Hogwarts and uncovers a dark mystery hidden within the school.</description>
+    </book>
+
+    <!-- Book container comment: this book element is a container for one individual book. -->
+    <book id="b3">
+        <title>Harry Potter and the Prisoner of Azkaban</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>720</price>
+        <format>Paperback</format>
+        <stock>10</stock>
+        <description>A darker and more emotional story as Harry learns shocking truths about his past.</description>
+    </book>
+
+    <!-- Book container comment: this book element is a container for one individual book. -->
+    <book id="b4">
+        <title>Harry Potter and the Goblet of Fire</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>760</price>
+        <format>Paperback</format>
+        <stock>9</stock>
+        <description>Hogwarts hosts the Triwizard Tournament, placing Harry in a dangerous competition.</description>
+    </book>
+
+    <!-- Book container comment: this book element is a container for one individual book. -->
+    <book id="b5">
+        <title>Harry Potter and the Order of the Phoenix</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>790</price>
+        <format>Paperback</format>
+        <stock>8</stock>
+        <description>As dark forces rise, Harry faces growing pressure, loss, and resistance.</description>
+    </book>
+
+    <!-- Book container comment: this book element is a container for one individual book. -->
+    <book id="b6">
+        <title>Harry Potter and the Half-Blood Prince</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>810</price>
+        <format>Paperback</format>
+        <stock>7</stock>
+        <description>Secrets from the past begin to unfold as Harry prepares for the final battle ahead.</description>
+    </book>
+
+    <!-- Book container comment: this book element is a container for one individual book. -->
+    <book id="b7">
+        <title>Harry Potter and the Deathly Hallows</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>850</price>
+        <format>Paperback</format>
+        <stock>6</stock>
+        <description>Harry, Ron, and Hermione leave Hogwarts to complete the final mission against Voldemort.</description>
+    </book>
+
+</bookstore>
