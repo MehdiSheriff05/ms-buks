@@ -33,6 +33,8 @@ The website is about a fictional bookstore called MS Buks. It has a homepage and
 
 The purpose of this project is to show how HTML, CSS, XML, DTD and XSL can work together in one website.
 
-## Author
+## Authors
 
-Made by Mehdi Sheriff for university coursework.
+- Mehdi Sheriff
+- Mohamedkazim Khaku
+- Mustafa Qasim
