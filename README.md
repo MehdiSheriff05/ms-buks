@@ -35,6 +35,6 @@ The purpose of this project is to show how HTML, CSS, XML, DTD and XSL can work 
 
 ## Authors
 
-- Mehdi Sheriff
-- Mohamedkazim Khaku
-- Mustafa Qasim
+- M01014249 MEHDI SHERIFF
+- M01003450 MUSTAFA QASIM
+- M01093420 MOHAMEDKAZIM KHAKU
